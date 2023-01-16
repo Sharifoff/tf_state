@@ -1,5 +1,5 @@
 resource "local_file" "state" {
-  filename  = "/root/${var.remote-state}"
+  filename  = "/home/cloudshell-user/${var.remote-state}"
   content = "This configuration uses ${var.remote-state} state"
 
 }
